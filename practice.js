@@ -1,4 +1,4 @@
-const firebaseConfig = {
+var firebaseConfig = {
     apiKey: "AIzaSyCXsng3BlSXFRHxDlyH9HQVcJSEDXSsE48",
     authDomain: "kwitter-44505.firebaseapp.com",
     databaseURL: "https://kwitter-44505-default-rtdb.firebaseio.com",
@@ -9,7 +9,7 @@ const firebaseConfig = {
   };
   
   // Initialize Firebase
-  const app = initializeApp(firebaseConfig);
+  firebase.initializeApp(firebaseConfig);
 //ADD YOUR FIREBASE LINKS
 
 function addUser()
